@@ -4,7 +4,7 @@
 
 Submitted by: **Julian Columbres**
 
-Time spent: **12** hours spent in total
+Time spent: **13** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/verdant-skitter-cymbal?path=index.html%3A1%3A0
 
