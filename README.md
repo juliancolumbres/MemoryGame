@@ -41,7 +41,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='https://recordit.co/NxtDPv75FU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/NxtDPv75FU.gif'![image](https://user-images.githubusercontent.com/75638994/112023379-6b2fa200-8af0-11eb-9bef-813c24620865.png)
+ title='Video Walkthrough' width='' alt='Video Walkthrough' />
 https://recordit.co/NxtDPv75FU
 
 
