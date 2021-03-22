@@ -15,7 +15,7 @@ var timePerGuess = 4;
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
-var volume = 0.2; //must be between 0.0 and 1.0
+var volume = 0.3; //must be between 0.0 and 1.0
 
 function createPattern() {
   // ensure pattern is empty
@@ -214,6 +214,7 @@ const freqMap = {
 };
 
 function playTone(btn, len) {
+  console.log(o1.frequency.value);
   o1.frequency.value = freqMap[btn];
   o2.frequency.value = freqMap[btn] + 100;
   o3.frequency.value = freqMap[btn] + 200;
@@ -284,15 +285,8 @@ g3.gain.setValueAtTime(0, context3.currentTime);
 o3.connect(g3);
 o3.start(0);
 
-function synthSound(btn) {
-  var context = new AudioContext();
-  var osc = document.getElementById("button" + btn);
-  osc.onclick = function() {
-    var oscPitch = 100;
-    var oscillator = context.createOscillator();
-    oscillator.type = 2;
-    oscillator.frequency.value = oscPitch;
-    oscillator.connect(context.destinatoin);
-    oscillator.noteOn(0);
-  };
+function enableSound() {
+  context1.resume();
+  context2.resume();
+  context3.resume();
 }
