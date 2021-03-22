@@ -42,7 +42,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 <img src='https://recordit.co/NxtDPv75FU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://recordit.co/NxtDPv75FU.gif
+https://recordit.co/NxtDPv75FU
 
 
 
