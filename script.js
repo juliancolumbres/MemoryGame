@@ -126,7 +126,7 @@ function playClueSequence() {
 
 function lostGame(reason) {
   stopGame();
-  if (reason == strikes) {
+  if (reason == "strikes") {
     alert("You ran out of strikes! Game over.");
   } else {
     alert("Times up! Game over.");
