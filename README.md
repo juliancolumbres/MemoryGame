@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://recordit.co/NxtDPv75FU
+https://recordit.co/t3swOo9v8f
 <img src= 'https://user-images.githubusercontent.com/75638994/112023379-6b2fa200-8af0-11eb-9bef-813c24620865.png'>
 
 
