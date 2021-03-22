@@ -11,6 +11,11 @@ h1 {
   font-family: "Courier New", Courier, monospace;
 }
 
+p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 button {
   font-family: inherit;
   font-weight: bold;
@@ -113,7 +118,7 @@ button {
   background: #ff0000;
 }
 
-/* galaxy background taken from https://www.softaox.info/galaxy-particle-effects-using-css/ */
+/* galaxy background taken from https://www.softaox.info/galaxy-particle-effects-using-css/ lines 117-254 */
 .galaxy-header {
   overflow: hidden;
   position: absolute;

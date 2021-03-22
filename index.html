@@ -13,15 +13,15 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body onload="displayVariables();">
+  <body onload="displayVariables()">
     <div class="galaxy">
       <h1>Light and Sound Memory Game</h1>
-      <h3>
+      <p>
         Welcome! Memorize and repeat back the pattern by clicking the buttons.
-      </h3>
+      </p>
       <br />
       <br />
-      <button id="startBtn" onclick="startGame(); resumeSound()">
+      <button id="startBtn" onclick="startGame(); enableSound()">
         Start
       </button>
       <button id="stopBtn" class="hidden" onclick="stopGame()">
