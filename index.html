@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body onload="displayVariables();">
+    <div class="galaxy">
+      <h1>Light and Sound Memory Game</h1>
+      <h3>
+        Welcome! Memorize and repeat back the pattern by clicking the buttons.
+      </h3>
+      <br />
+      <br />
+      <button id="startBtn" onclick="startGame(); resumeSound()">
+        Start
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+      <br />
+      <br />
+      <div id="gameButtonArea">
+        <button
+          id="button1"
+          onclick="guess(1)"
+          onmousedown="startChord(1)"
+          onmouseup="stopChord()"
+        ></button>
+        <button
+          id="button2"
+          onclick="guess(2)"
+          onmousedown="startChord(2)"
+          onmouseup="stopChord()"
+        ></button>
+        <button
+          id="button3"
+          onclick="guess(3)"
+          onmousedown="startChord(3)"
+          onmouseup="stopChord()"
+        ></button>
+        <button
+          id="button4"
+          onclick="guess(4)"
+          onmousedown="startChord(4)"
+          onmouseup="stopChord()"
+        ></button>
+        <button
+          id="button5"
+          class="hidden"
+          onclick="guess(5)"
+          onmousedown="startChord(5)"
+          onmouseup="stopChord()"
+        ></button>
+        <button
+          id="button6"
+          class="hidden"
+          onclick="guess(6)"
+          onmousedown="startChord(6)"
+          onmouseup="stopChord()"
+        ></button>
+      </div>
+      <br />
+      <br />
+      <h2>
+        Stage:
+        <div id="currentMove"></div>
+      </h2>
+      <h2>
+        Time:
+        <div id="time"></div>
+      </h2>
+      <button id="button-easy" onclick="setDifficulty(1)">
+        Easy
+      </button>
+      <button id="button-medium" onclick="setDifficulty(2)">
+        Medium
+      </button>
+      <button id="button-hard" onclick="setDifficulty(3)">
+        Hard
+      </button>
+      <br />
+      <br />
+      <br />
+      <h3>
+        Easy: 4 Buttons, 5 Stages, 4 seconds per guess
+      </h3>
+      <h3>
+        Medium: 5 Buttons, 8 Stages, 3 seconds per guess
+      </h3>
+      <h3>
+        Hard: 6 Buttons, 10 Stages, 2 seconds per guess
+      </h3>
+      <div class="stars"></div>
+    </div>
+  </body>
+</html>
