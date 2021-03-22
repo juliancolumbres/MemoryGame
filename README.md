@@ -52,7 +52,7 @@ To create the space background, I used https://www.softaox.info/galaxy-particle-
 When creating audio chords, I referenced https://developer.mozilla.org/en-US/docs/Web/API/AudioContext for better understanding.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The biggest challenge I encountered was the audio not playing when accessing the project outside of the Glitch IDE. Specifically I found on Chrome, the game would play without sound. Upon opening the Javascript console log, I saw a warning stating that "AudioContext was not allowed to start." To get a better understanding of AudioContext, I referred to https://www.the-art-of-web.com/javascript/creating-sounds/ and https://developer.mozilla.org/en-US/docs/Web/API/AudioContext, the API page. I then googled the specific error message, where I learned that Chrome automatically disables any AudioContext object when the page is loaded. A user gesture must occur before any one can be enabled. So, the solution would be to resume my AudioContext objects when a user clicks a button. I created a function, enableSound(), which resumed all AudioContext instances. I had it called on click of the "start" button. After refreshing the page, audio worked as intended.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
