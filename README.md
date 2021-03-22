@@ -59,7 +59,7 @@ Another challenge was incorporating a timer in order to time the user’s guess.
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) <br> <br>
-What is the most difficult aspect of web development? How applicable are skills in java to front end development? What does a common testing strategy for a website look like? Do most developers have freedom when creating an interface, or is design typically strict and determined by someone else? Are there certain mistakes to avoid in front end development that slow down webpages? <br>
+What is the most difficult aspect of web development? How applicable are skills in java to front end development? When working in a team, what are common stages to create a web application? What does a common testing strategy for a website look like? Do most developers have freedom when creating an interface, or is design typically strict and determined by someone else? Are there specific mistakes to avoid in front end development that slow down webpages? <br>
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) <br> <br>
