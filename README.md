@@ -1,11 +1,3 @@
-# Pre-work - *Memory Game*
-
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
-
-Submitted by: **Julian Columbres**
-
-Time spent: **13** hours spent in total
-
 Link to project: https://glitch.com/edit/#!/verdant-skitter-cymbal?path=index.html%3A1%3A0
 
 ## Required Functionality
