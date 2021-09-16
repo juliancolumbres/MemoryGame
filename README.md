@@ -1,53 +1,13 @@
-Link to project: https://glitch.com/edit/#!/verdant-skitter-cymbal?path=index.html%3A1%3A0
+# Light and Sound Memory Game
 
-## Required Functionality
+A Simon memory game made using HTML/CSS and Javascript. This project was built using online IDE called Glitch, which has instant hosting and deployment. 
+Play on the live site: https://verdant-skitter-cymbal.glitch.me
+
+## Features
 
 The following **required** functionality is complete:
 
-* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [x] Game buttons each light up and play a sound when clicked. 
-* [x] Computer plays back sequence of clues including sound and visual cue for each button
-* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [x] User wins the game after guessing a complete pattern
-* [x] User loses the game after an incorrect guess
+Three dificulties to change button count, pattern count to win, and timer length. Playback speeds up on each turn and the player loses after three mistakes. Computer patterns are different each game
 
-The following **optional** features are implemented:
-
-* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [x] More than 4 functional game buttons
-* [x] Playback speeds up on each turn
-* [x] Computer picks a different pattern each time the game is played
-* [x] Player only loses after 3 mistakes (instead of on the first mistake)
-* [x] Game button appearance change goes beyond color (e.g. add an image)
-* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [x] User has a limited amount of time to enter their guess on each turn
-
-The following **additional** features are implemented:
-
-* [x] Number of buttons, length of pattern, and timer change according to difficulty
-* [x] Current stage and timer are displayed 
-* [x] Game has space background
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-https://recordit.co/t3swOo9v8f
 <img src= 'https://user-images.githubusercontent.com/75638994/112023379-6b2fa200-8af0-11eb-9bef-813c24620865.png'>
 
-## License
-
-    Copyright [Julian Columbres]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
