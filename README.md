@@ -8,6 +8,6 @@ Play on the live site: https://verdant-skitter-cymbal.glitch.me (mobile not supp
 
 Repeat the pattern enough times to win the game. Three dificulties to change button count, pattern count to win, and timer length. Playback speeds up on each turn and the player loses after three mistakes. Computer patterns are different each game.
 
-<img src='http://g.recordit.co/XiRbUQow7q.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![image](https://user-images.githubusercontent.com/75638994/135079211-c9d228e3-1a50-41e4-aa4e-8c89a80cc026.png)
 
 
