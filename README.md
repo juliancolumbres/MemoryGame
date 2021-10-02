@@ -2,7 +2,7 @@
 
 A Simon memory game made using HTML/CSS and Javascript. This project was built using online IDE Glitch, which has instant hosting and deployment.
 
-Play on the live site: https://verdant-skitter-cymbal.glitch.me (mobile not supported)
+Play on the live site: https://verdant-skitter-cymbal.glitch.me.
 
 ## Features
 
